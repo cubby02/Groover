@@ -7,24 +7,106 @@
         <link rel="icon" type="image/x-icon" href="assets/images/grover logo.svg">
         <meta name="description" content="Grover is an online grocery app that deliver goods fast and fresh. Order now!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <!-- Header -->
         <section>
             <!-- Navigation Bar -->
-            <div class="navbar">
-                
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/grover logo.svg" alt="Logo Text">
+                        <img src="assets/images/grover logo text.svg" alt="Logo Text">
+                    </a>
+                    <button class="navbar-toggler" type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Shop</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success">Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid">
+                <div class="row row-cols-2">
+                    <!-- Header Content -->
+                    <div class="col">
+                        <div class="container-fluid">
+                            <img src="assets/images/more than Faster.webp" alt="More than faster" width="214px" height="me-auto">
+                            <h2 class="fw-bold fs-1">Groceries delivered in as little as 2 hours</h2>
+                            <p class="text-black fw-light">Grocen atssures fresh grocery every morning to your family without getting out in this pandemic.</p>
+                            <button type="button" class="btn btn-primary btn-lg">Order Now</button>
+                            <img src="assets/images/button-play.svg" height="70px" width="70px">
+                            <span>Order Process</span>
+                        </div>
+                    </div>
+
+                    <!-- Header Image -->
+                    <div class="col">
+                        <img src="assets/images/chef.webp" alt="Chef" width="417px" class="">
+                        <img src="assets/images/card 02.webp" alt="Card 2" height="74px" class="shadow-lg">
+                        <img src="assets/images/card 01.webp" alt="Card 1" width="182px" class="shadow-lg">
+                    </div>
+                </div>
             </div>
         </section>
+
         <!-- Our Services -->
+        <section>
+            <div class="container-fluid">
+                <h5>What we Serve</h5>
+                <h2 class="fw-bold">Fruit and vegetable delivered to your home</h2>
+                <div class="container-fluid">
+                    <div class="row row-cols-3">
+                        <div class="col">
+                            <img src="assets/images/free delivery.svg" alt="Free Delivery" height="100px">
+                            <h5 class="fw-bold">Free Delivery</h5>
+                            <p class="fs-6">Enjoy Order in a hand using the fresness of groceries</p>
+                        </div>
+                        <div class="col">
+                            <img src="assets/images/return.svg" alt="15 Days to Return" height="100px">
+                            <h5 class="fw-bold">15 Days to Return</h5>
+                            <p class="fs-6">Order in a handy way using the freshness of the groceries.</p>
+                        </div>
+                        <div class="col">
+                            <img src="assets/images/seucre.svg" alt="Secure Checkout" height="100px">
+                            <h5 class="fw-bold">Secure Checkout</h5>
+                            <p class="fs-6">If you get rotten items - return immediately to us.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Features 01 -->
         <!-- Features 02 -->
         <!-- CTA -->
         <!-- Footer -->
         <!-- Scripts -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         <script src="index.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
