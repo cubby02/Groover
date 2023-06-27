@@ -53,3 +53,24 @@ nav div {
 .cartBtn {
     width: 50px;
 }
+
+/* Extra small devices (phones, less than 768px) */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .listMargin {
+        margin-left: 3%;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .listMargin {
+        margin-left: 8%;
+    }
+}
