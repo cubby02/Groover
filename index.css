@@ -12,8 +12,12 @@ body {
 }
 
 .padding {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+h1 {
+    font-size: 4vw;
 }
 
 nav div {
@@ -54,11 +58,31 @@ nav div {
     width: 50px;
 }
 
+#headerImage {
+    height: 606px;
+    width: 620px;
+}
+
+#headerChef {
+    position: relative;
+}
+
+#headerCard01 {
+    position: absolute;
+    z-index: 1;
+}
+
+#headerCard02 {
+    position: absolute;
+    z-index: 1;
+}
+
+
 /* Extra small devices (phones, less than 768px) */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    
 }
 
 /* Medium devices (desktops, 992px and up) */
