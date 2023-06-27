@@ -1,3 +1,7 @@
+:root {
+    --brandColor: #F55253;
+}
+
 * {
     margin: 0; 
     padding: 0;
@@ -5,4 +9,47 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.padding {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav div {
+    height: 90px;
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Center the ul horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: var(--brandColor);
+}
+
+.activeLink {
+    color: var(--brandColor);
+}
+
+.searchBar {
+    height: 54px;
+    width: 290px;
+}
+
+.vertical {
+    border-left: 2px solid #eeecec;
+    height: 30px;
+}
+
+.cartBtn {
+    width: 50px;
 }
